@@ -1,0 +1,289 @@
+/* Archivos ccs para pre-entrega de trabajo final N*1 - desarrollo web commision 33115- CODERHOUSE  */
+/* Queria poner el font-family: & color: para que impacte general en  *{   }   pero en coderask me dijeron que lo tengo que ir definiendo mediante voy escribiendo el codigo asi que me quedo con mas clases que antes. */
+
+/* GLOBALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*     ETIQUETAS      */
+html {
+    font-size: 62.5%;
+} 
+
+p {
+    font-size: 2rem;
+}
+
+aside {
+    font-size: 1.5rem;
+    }
+
+header {
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+    z-index: 1
+}
+
+/*    CLASS     */
+    /*    HEADER    */
+
+.menu { 
+        color: #040404;
+        font-family: 'Roboto', sans-serif;
+    }
+
+.menu li {
+    display: inline
+}
+
+.menu__h1 {
+    font-size: 7rem;
+}
+
+.menu__navegacion {
+    font-size: 3rem;
+    border:solid 1rem #825F41;
+}
+
+.menu__navegacion li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #040404;
+    margin-right: 8rem;
+}
+
+    /*    MAIN    */
+
+.logoIndex {
+    text-align: center ;
+    margin: 7rem;
+}
+
+.logoIndex img {
+    width: 30rem;
+}
+
+.div__texto {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div__texto h2 {
+    font-size: 2rem;
+}
+
+.div__tablaconmodelo {
+    text-align: center;
+    margin: 6rem;
+}
+
+.div__tablaconmodelo img {
+    width: 70rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.descripcionfoto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedorflex__textoimg {
+    font-family: 'Roboto', sans-serif;
+    border: solid 1rem #825F41;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 2rem;
+}
+
+.contenedorflex__textoimg img {
+    margin-top: 2rem;
+    height: 40rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contenedorflex__textoimg h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.descripcionMapa {
+    font-family: 'Roboto', sans-serif;
+}
+
+.descripcionMapa h2 {
+    font-size: 3rem;
+}
+
+.descripcionMapa__iframe {
+    text-align: center;
+    margin: 4rem;
+    border: solid 1rem #825F41;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.descripcionMapa__texto {
+    margin: 4rem 4rem 0rem 4rem;
+    line-height: 3rem;
+}
+
+.surfeducation{
+    font-family: 'Roboto', sans-serif;
+    margin: 3rem;
+}
+
+.surfeducation h2 {
+    font-size: 3rem;
+}
+
+.surfeducation h3 {
+    font-size: 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.surfeducation div p {
+    font-size: 3rem;
+    margin: 5rem;
+}
+
+.surfeducation__caja img {
+    margin: 3rem
+}
+
+.surfeducation__caja img {
+    width: 30rem;
+}
+
+.formulario {
+    display: inline-block;
+    margin: 2rem;
+    font-family: 'Roboto', sans-serif;
+    border: solid 1rem #825F41;
+}
+
+.formulario legend {
+    font-size: 3rem;
+}
+
+.formulario input {
+    margin: 1rem;
+    padding: .3rem;
+}
+
+.formulario textarea {
+    margin: 1rem;
+}
+
+.formulario label {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.formulario p {
+    margin: 1rem;
+}
+
+.botones input {
+    padding: 1rem;
+    background-color: #825F41;
+    border-radius: 1rem;
+}
+
+.fondoMain {
+    background-image: url(../img/neoprene.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.fondoMain2 {
+    background-image: url(../img/cartel.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.sosmayorista legend {
+    font-size: 2rem;
+}
+
+.sosmayorista {
+    margin: 1rem;
+}
+
+.flexboxpadre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productos {
+    font-family: 'Roboto', sans-serif;
+}
+
+.productos h2 {
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+.productos h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.card {
+    border: solid 1rem #825F41;
+    width: 40rem;
+    height: 75rem;
+    margin: .3rem;
+    text-align: center;
+
+}
+.card img {
+    width: 30rem;
+    max-width: 100%;
+}
+
+.card a {
+    font-size: 1.5rem;
+}
+
+.card p {
+    margin: 1rem;
+}
+
+.card aside {
+    margin: 2rem;
+}
+
+    /*   FOOTER   */
+.footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer__links {
+    padding: 2rem;
+    background-color: #825F41;
+}
+
+.footer__links a {
+    margin: 2rem;
+} 
+
+.footer__links a img {
+    width: 10rem;
+
+}
+
+.footer__reservados p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic
+}
